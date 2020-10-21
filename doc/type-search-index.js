@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"dev.rauhala.util","l":"Arrays"},{"p":"dev.rauhala","l":"Main"},{"p":"dev.rauhala.util","l":"Math"},{"p":"dev.rauhala.util","l":"MyConsole"}]
