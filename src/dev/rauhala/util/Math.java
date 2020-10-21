@@ -14,7 +14,7 @@ public class Math {
      *
      * @param min   The minimum the result can be.
      * @param max   The maximum the result can be.
-     * @return int, random.
+     * @return int
      */
     public static int getRandom(int min, int max) {
         return min + (int) (java.lang.Math.random() * ((max - min) + 1));
@@ -23,9 +23,9 @@ public class Math {
     /**
      * Check if an integer is between two integers.
      *
-     * @param value int
-     * @param min int
-     * @param max int
+     * @param value int     The integer to be compared.
+     * @param min int       The start of the comparison range.
+     * @param max int       The end of the comparison range.
      * @return boolean
      */
     public static boolean between(int value, int min, int max) {

@@ -20,6 +20,11 @@ public class Main {
     final static String LOTTERY_MINMAX_ERROR = LOTTERY_GUIDE;
     static int[] USER_LOTTERY = new int[LOTTERY_JACKPOT];
 
+
+    /**
+     * This is the method to run the rest of the lottery app.
+     * @param args
+     */
     public static void main(String [] args) {
         userLottery();
         iterateJackpot();
@@ -45,7 +50,8 @@ public class Main {
     /**
      * Runs the lottery until the user has won.
      *
-     * It will run until the lottery is won with the given "considerWinning" number.
+     * It will run until the lottery is won with the given "considerWinning" number. In the end the method
+     * will return the amount of years it took to win.
      *
      * @param considerWinning   An integer to calculate winning against.
      * @return int              The amount of years it took to win.
@@ -95,6 +101,10 @@ public class Main {
 
     /**
      * Generate the random winning lottery numbers.
+     *
+     * It generates the possible numbers into an array "numbers" and from there it randomly picks a random number
+     * to the "lotto" array. After that the chosen number is removed from the original "numbers" array, therefore
+     * only allowing unique numbers to be chosen.
      *
      * @return array    Return an array with winning lottery numbers.
      */

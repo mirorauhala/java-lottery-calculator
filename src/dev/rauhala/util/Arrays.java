@@ -10,7 +10,7 @@ public class Arrays {
     /**
      * Transform a string array to an integer array.
      *
-     * @param old The array to be transformed.
+     * @param old   The array to be transformed.
      * @return int array
      */
     public static int[] toIntArray(String[] old) {
@@ -27,6 +27,7 @@ public class Arrays {
      * Checks if the needle is found in the haystack.
      *
      * This method counts the values inside the haystack array that match the value of the needle integer.
+     * It returns a boolean value.
      *
      * @param needle   The integer type of a needle.
      * @param haystack The integer type of a haystack.
@@ -46,10 +47,11 @@ public class Arrays {
      * Checks if the needle is found in the haystack.
      *
      * This method counts the values inside the haystack array that match the values inside the needle array.
+     * It returns an integer value representing the amount of the same values.
      *
      * @param needle   The integer array type of a needle.
      * @param haystack The integer array type of a haystack.
-     * @return integer count of same values.
+     * @return int amount of the same values.
      */
     public static int containsSameValues(int[] needle, int[] haystack) {
         int count = 0;
@@ -69,7 +71,7 @@ public class Arrays {
      *
      * @param original The integer array type of a needle.
      * @param index    The integer array type of a haystack.
-     * @return integer array
+     * @return int array
      */
     public static int[] removeIndex(int[] original, int index) {
 
@@ -93,10 +95,12 @@ public class Arrays {
     }
 
     /**
-     * Will sort the given array using selection sort.
+     * Sorts the given array using selection sort.
+     *
+     * Selection sort algorithm results in an array that starts from the smallest to the biggest.
      *
      * @param sortable An array to be sorted.
-     * @return integer array
+     * @return int array
      */
     public static int[] sort(int[] sortable) {
         for (int i = 0; i < sortable.length - 1; i++) {

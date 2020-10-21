@@ -3,7 +3,7 @@ package dev.rauhala.util;
 import java.io.Console;
 
 /**
- * The MyConsole class contains methods for asdasd.
+ * The MyConsole class contains methods for user input.
  *
  * @author Miro Rauhala
  */
