@@ -1,0 +1,14 @@
+# Log garbage
+*.log
+
+# Idea garbage
+.idea/
+
+# Mac garbage
+.DS_Store
+
+# Windows garbage
+desktop.ini
+
+# Java garbage
+*.class
