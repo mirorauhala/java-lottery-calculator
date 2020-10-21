@@ -27,8 +27,6 @@ public class Main {
 
     /**
      * Ask the user for the winning numbers.
-     *
-     * @return void
      */
     public static void userLottery() {
         for (int i = 0; i < LOTTERY_JACKPOT;) {
@@ -80,8 +78,6 @@ public class Main {
      *
      * This will iterate the amount of jackpots that have been set. For each jackpot, it will
      * count the amount of time it took to win.
-     *
-     * @return void
      */
     public static void iterateJackpot() {
         for (int i = 0; i < LOTTERY_JACKPOT; i++) {
