@@ -23,7 +23,7 @@ public class Main {
 
     /**
      * This is the method to run the rest of the lottery app.
-     * @param args
+     * @param args  user arguments
      */
     public static void main(String [] args) {
         userLottery();
