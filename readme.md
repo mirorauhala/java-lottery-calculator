@@ -25,7 +25,7 @@ To install this, run the following commands:
 
 ```bash
 git clone https://github.com/mirorauhala/java-lottery-calculator.git
-cd java-lotto-calculator/src
+cd java-lottery-calculator/src
 javac ./dev/rauhala/Main.java
 ```
 
@@ -43,7 +43,7 @@ The documentation is available [here](https://mirorauhala.github.io/java-lottery
 
 To build the documentation, run the following commands:
 ```bash
-cd java-lotto-calculator/src
+cd java-lottery-calculator/src
 javadoc -author -d ../docs -subpackages dev
 ```
 
