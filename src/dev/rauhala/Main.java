@@ -119,16 +119,11 @@ public class Main {
         int index = Math.getRandom(0, numbers.length - 1);
 
         for (int i = 0; i < lotto.length; i++) {
-            // put random number into lotto array
             lotto[i] = numbers[index];
 
-            // Remove the value with given index from the array.
-            // numbers.length is now 39 instead of 40.
             numbers = Arrays.removeIndex(numbers, index);
 
-            // get random index from the array, notice that now the numbers.length is one smaller
             index = Math.getRandom(0, numbers.length - 1);
-            // .. and so on. Implement this using iteration (while)
         }
 
         return lotto;

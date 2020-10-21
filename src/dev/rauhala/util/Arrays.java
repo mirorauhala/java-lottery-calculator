@@ -82,7 +82,6 @@ public class Arrays {
         int[] newArray = new int[original.length - 1];
 
         for (int i = 0, k = 0; i < original.length; i++) {
-
             if (i == index) {
                 continue;
             }
@@ -91,7 +90,6 @@ public class Arrays {
         }
 
         return newArray;
-
     }
 
     /**
@@ -120,5 +118,4 @@ public class Arrays {
 
         return sortable;
     }
-
 }
